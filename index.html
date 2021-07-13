@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/stryle.css" />
+    <title>TypeScript</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex flex-row m-5 items-center">
+        <div class="p-5 flex flex-col">
+          <label class="font-semibold" for="number1">Número 1:</label>
+          <input class="text-center p-2 border" type="number" id="number1" />
+        </div>
+        <div class="p-5 flex flex-col">
+          <label class="font-semibold" for="number1">Número 2:</label>
+          <input class="text-center p-2 border" type="number" id="number2" />
+        </div>
+        <div class="relative top-6 p-5 flex flex-col">
+          <label class="font-semibold" for="result">Resultado:</label>
+          <input class="text-center p-2 border" type="number" id="result" />
+          <input
+            class="rounded-md p-2 mt-2 bg-indigo-400 text-white shadow-lg h-10"
+            type="button"
+            id="btnSum"
+            value="somar"
+          />
+        </div>
+      </div>
+      <script src="./src/app.ts"></script>
+    </div>
+  </body>
+</html>
